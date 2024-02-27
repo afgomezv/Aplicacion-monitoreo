@@ -10,6 +10,7 @@ El objetivo es crear series de tareas usando Arquitectura Limpia con TypeScript
 ```
 PORT=
 
+MAILER_SERVICE =
 MAILER_EMAIL =
 MAILER_SECRET_KEY =
 
