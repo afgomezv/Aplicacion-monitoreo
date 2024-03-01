@@ -13,9 +13,15 @@ El objetivo es crear series de tareas usando Arquitectura Limpia con TypeScript
 docker-compose up -d
 ```
 
-5. Ejecutar `npm run dev`
+5. Ejecutar el comando
 
-#Configura variables de entorno
+```
+npx prisma migrate dev
+```
+
+6. Ejecutar `npm run dev`
+
+# Configura variables de entorno
 
 ```
 PORT=
